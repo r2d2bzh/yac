@@ -1,0 +1,8 @@
+:convict: https://github.com/mozilla/node-convict/tree/master/packages/convict
+:js-yaml: https://github.com/nodeca/js-yaml
+:json: https://www.json.org/
+:yaml: https://yaml.org/spec/1.2/spec.html
+
+= Yet Another Convict
+
+`yac` relies entirely on {convict}[convict] and only configures it to parse {yaml}[YAML] configuration files by default through {js-yaml}[JS-YAML].
