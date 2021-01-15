@@ -1,0 +1,8 @@
+boolean: true
+object:
+  first: 1
+  second: 2
+array:
+  - 1
+  - 2
+  - 3

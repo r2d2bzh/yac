@@ -1,0 +1,36 @@
+{
+  "name": "@r2d2bzh/yac",
+  "version": "0.0.0",
+  "description": "yac relies entirely on convict and only configures it to parse YAML configuration files by default through JS-YAML",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r2d2bzh/yac.git"
+  },
+  "keywords": [
+    "configuration",
+    "config",
+    "schema",
+    "validation",
+    "yaml"
+  ],
+  "author": "r2d2bzh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r2d2bzh/yac/issues"
+  },
+  "homepage": "https://github.com/r2d2bzh/yac#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "convict": "^6.0.0",
+    "js-yaml": "^4.0.0"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0"
+  }
+}
