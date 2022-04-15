@@ -1,6 +1,6 @@
 {
   "name": "@r2d2bzh/yac",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "yac relies entirely on convict and only configures it to parse YAML configuration files by default through JS-YAML",
   "main": "index.js",
   "scripts": {
