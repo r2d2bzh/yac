@@ -4,6 +4,9 @@ on:
   release:
     types: [created]
 
+  pull_request:
+    branches: [ main ]
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -16,6 +19,7 @@ jobs:
       - run: npm test
 
   publish-npm:
+    if: ${{ github.event_name != 'pull_request' }}
     needs: test
     runs-on: ubuntu-latest
     steps:
