@@ -1,6 +1,6 @@
-const convict = require('convict');
-const yaml = require('js-yaml');
+import convict from 'convict';
+import yaml from 'js-yaml';
 
 convict.addParser({ extension: ['yml', 'yaml'], parse: yaml.load });
 
-module.exports = convict;
+export default convict;
