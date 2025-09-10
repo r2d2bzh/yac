@@ -7,7 +7,8 @@
   "scripts": {
     "test": "ava",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,8 @@
   "devDependencies": {
     "ava": "^6.4.1",
     "eslint": "^9.35.0",
-    "@r2d2bzh/eslint-config": "^2.0.1"
+    "@r2d2bzh/eslint-config": "^2.0.1",
+    "release-it": "^19.0.4",
+    "@release-it/conventional-changelog": "^10.0.1"
   }
 }
