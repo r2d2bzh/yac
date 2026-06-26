@@ -1,6 +1,7 @@
 import convict from 'convict';
-import yaml from 'js-yaml';
+import { load } from 'js-yaml';
 
-convict.addParser({ extension: ['yml', 'yaml'], parse: yaml.load });
+// eslint-disable-next-line unicorn/no-top-level-side-effects
+convict.addParser({ extension: ['yml', 'yaml'], parse: load });
 
-export default convict;
+export { default } from 'convict';
