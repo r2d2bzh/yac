@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.1](https://github.com/r2d2bzh/yac/compare/1.2.0...1.2.1) (2026-10-14)
+
+### Bug Fixes
+
+* **deps:** update dependencies ([616dc42](https://github.com/r2d2bzh/yac/commit/616dc4259a1235c554ff6443ee20daab9da1a42b))
+
 # [1.1.0](https://github.com/r2d2bzh/yac/compare/1.0.4...1.1.0) (2025-09-10)
 
 
